@@ -1,50 +1,49 @@
-<h1>JWipe - Disk Sanitization</h1>
+<h1>EyewitnessKaliLinux</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+ ### [Link to Demonstration](https://drive.google.com/file/d/1st9UvRy2bvjAtP-frlr163HVMeVtiOk_/view?usp=sharing)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+The project involves using EyeWitness, a reconnaissance tool in Kali Linux to capture screenshots and gather information about these websites. By running EyeWitness with the specified target URLs, the tool will create a report containing the captured screenshots and relevant details such as server information, HTTP headers, SSL certificate details, and open ports. This project shows how EyeWitness can be used during the reconnaissance process, provide visual evidence of potential vulnerabilities, and help security professionals in analyzing the structure and security posture of websites. The generated report can be used for further analysis, reporting, and aiding in the identification and mitigation of security weaknesses.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Technologies Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Kali Linux</b> 
+- <b>Eyewitness</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows</b> 
 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Make sure Eyewitness is downloaded: <br/>
+<img src="https://i.imgur.com/89U1DER.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Created a folder called "Domains.txt" containing the list of URL's I'll be using:  <br/>
+<img src="https://i.imgur.com/kJsHLna.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Syntax for taking screenshots: <br/>
+<img src="https://i.imgur.com/GtXZTRT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Showing a report has been made and asking if I wanna see it in my browser:  <br/>
+<img src="https://i.imgur.com/5C8iGRu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Being Redirected to Firefox to see the screenshots (only showed one website to save space)  <br/>
+<img src="https://i.imgur.com/Vt5beF0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+ <br /> 
+Showing all directories containing information about the websites:  <br/>
+<img src="https://i.imgur.com/JxKMXUQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 
 <!--
