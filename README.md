@@ -3,7 +3,7 @@
  ### [Link to Demonstration](https://drive.google.com/file/d/1st9UvRy2bvjAtP-frlr163HVMeVtiOk_/view?usp=sharing)
 
 <h2>Description</h2>
-The project involves using EyeWitness, a reconnaissance tool in Kali Linux to capture screenshots and gather information about these websites. By running EyeWitness with the specified target URLs, the tool will create a report containing the captured screenshots and relevant details such as server information, HTTP headers, SSL certificate details, and open ports. This project shows how EyeWitness can be used during the reconnaissance process, provide visual evidence of potential vulnerabilities, and help security professionals in analyzing the structure and security posture of websites. The generated report can be used for further analysis, reporting, and aiding in the identification and mitigation of security weaknesses.
+The project involves using EyeWitness, a reconnaissance tool in Kali Linux to capture screenshots and gather information about these websites. By running EyeWitness with the specified target URLs, the tool will create a report containing the captured screenshots and relevant details such as server information, HTTP headers, SSL certificate details, and open ports. This project shows how EyeWitness can be used during the reconnaissance process, provide visual evidence of potential vulnerabilities, and help security professionals in analyzing the structure and security posture of websites. The generated report can be used for further analysis, reporting, identification, and mitigation of security weaknesses.
 <br />
 
 
