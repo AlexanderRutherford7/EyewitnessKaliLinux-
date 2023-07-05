@@ -9,6 +9,7 @@ The project involves using EyeWitness, a reconnaissance tool in Kali Linux to ca
 
 <h2>Technologies Used</h2>
 
+- <b> Oracale Virtual Box</b>
 - <b>Kali Linux</b> 
 - <b>Eyewitness</b>
 
